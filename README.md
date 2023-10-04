@@ -155,7 +155,7 @@ The *I2CWrite* function takes 3 arguments as inputs. The buff pointer represents
 
 ### The Wire library
 
-Inside this header file we have implemented a rudimentary version of the Wire library from Arduino using the operations defined earlier. Here we have also declared 2 arrays: the rx and tx buffers which are going to be used for receiving and transmitting data. Let’s take an in depth look at the functions found here.
+In this library we have declared 2 arrays: the rx and tx buffers which are going to be used for receiving and transmitting data. Let’s take an in depth look at the functions found here:
 
 The *wire_clear_buffer_n* function takes 2 arguments. The buff pointer represents the buffer that we want to clear and len represents how many bytes we want to erase from it.
 
