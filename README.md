@@ -38,7 +38,7 @@ Datasheet can be found [here](https://ams-osram.com/products/sensors/ambient-lig
 
 The repository contains the following firmware samples: 
 
-[*EKRA2E1_AS7331_SCI_IIC*](firmware_samples/EKRA2E1_AS7331_SCI_IIC.zip)
+[*EKRA2E1_AS7331_SCI_IIC*](firmware_samples\AS7331\EKRA2E1_AS7331_SCI_IIC.zip)
 
 
 
@@ -46,45 +46,36 @@ This sample was configured for the EK-RA2E1 Evaluation Kit and it reads and outp
 
 ![Alt text](resources/as7331_ra2e1_output.png)
 
-[*EKRA2E1_AS7343_SCI_IIC*](firmware_samples/EKRA2E1_AS7343_SCI_IIC.zip)
+[*EKRA2E1_AS7343_SCI_IIC*](firmware_samples\AS7343\EKRA2E1_AS7343_SCI_IIC.zip)
 
 This sample was configured for the EK-RA2E1 Evaluation Kit. It uses the AS7343 14-channel spectral sensor to measure the intensity of particular wavelengths of light and outputs them via RTT.
 
 ![Alt text](resources/as7343_ra2e1_output.png)
 
-[*EKRA2E1_TMF8828_SCI_IIC*](firmware_samples/EKRA2E1_TMF8828_SCI_IIC.zip)
+[*EKRA2E1_TMF8828_SCI_IIC*](firmware_samples/TMF8828/EKRA2E1_TMF8828_SCI_IIC.zip)
 
 This sample was configured for the EK-RA2E1 Evaluation Kit, and it was initially designed to be a command line interpreter which enabled you to test different functionalities of the TMF8828 configurable 8x8 multi-zone Time-of-Flight Sensor without any change to the firmware itself.  For the purpose of keeping this sample simple and to the point, the firmware is given the measure command by default.
 
 ![Alt text](resources/tmf8828_ra2e1_output.png)
 
-The sensor reading looks like this:
 
-
-`#Obj,i2c_slave_address,result_number,temperature,number_valid_results,device_ticks,distance0_in_mm,confidence0,distance1_in_mm,confidence1,distance2_in_mm,confidence2, ...`
-
-
-[*EKRA6M4_AS7331_IIC*](firmware_samples/EKRA6M4_AS7331_IIC.zip)
+[*EKRA6M4_AS7331_IIC*](firmware_samples\AS7331\EKRA6M4_AS7331_IIC.zip)
 
 This sample was configured for the EK-RA6M4 Evaluation Kit and it reads and outputs data from the AS7331 UV A/B/C light sensor. The following output example shows how the firmware reads the raw UV values collected by the sensor and scales them. Additionally, the firmware reads the temperature values from the on-board temperature sensor and outputs them via SEGGER’s RTT.
 
 ![Alt text](resources/as7331_ra6m4_output.png)
 
-[*EKRA6M4_AS7343_IIC*](firmware_samples/EKRA6M4_AS7343_IIC.zip)
+[*EKRA6M4_AS7343_IIC*](firmware_samples\AS7343\EKRA6M4_AS7343_IIC.zip)
 
 This sample was configured for the EK-RA6M4 Evaluation Kit. It uses the AS7343 14-channel spectral sensor to measure the intensity of particular wavelengths of light and outputs them via RTT.
 
 ![Alt text](resources/as7343_ra6m4_output.png)
 
-[*EKRA6M4_TMF8828_IIC*](firmware_samples/EKRA6M4_TMF8828_IIC.zip)
+[*EKRA6M4_TMF8828_IIC*](firmware_samples\TMF8828\EKRA6M4_TMF8828_IIC.zip)
 
 This sample was configured for the EK-RA6M4 Evaluation Kit, it was initially designed to be a command line interpreter which enabled you to test different functionalities of the TMF8828 configurable 8x8 multi-zone Time-of-Flight Sensor without any change to the firmware itself. For the purpose of keeping this sample simple and to the point, the firmware is given the measure command by default.
 
 ![Alt text](resources/tmf8828_ra6m4_output.png)
-
-The sensor reading looks like this:
-
-`#Obj,i2c_slave_address,result_number,temperature,number_valid_results,device_ticks,distance0_in_mm,confidence0,distance1_in_mm,confidence1,distance2_in_mm,confidence2, ...`
 
 #  Quick-Start Guide
 
