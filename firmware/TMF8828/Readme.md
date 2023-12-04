@@ -2,7 +2,7 @@
 
 Datasheet can be found [here](https://ams-osram.com/products/sensors/distance-proximity-sensors/ams-tmf8828-configurable-8x8-multi-zone-time-of-flight-sensor#Datasheets).
 
-## Functionalities
+## Methods
 
 #### factoryCalibration 
 

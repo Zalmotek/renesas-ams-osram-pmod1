@@ -1,28 +1,28 @@
 # AS7343
 Datasheet can be found [here](https://ams-osram.com/products/sensors/ambient-light-color-spectral-sensors/ams-as7343-spectral-sensor#Datasheets).
 
-## Functionalities
+## Methods
 
 #### begin
-This functionality sets up the hardware and initializez the I2C bus.
+This method sets up the hardware and initializez the I2C bus.
 
 #### setATIME
-This functionality sets the integration time step count.
+This method sets the integration time step count.
 
 #### setASTEP
-This functionality sets the integration time step size.
+This method sets the integration time step size.
 
 #### setGAIN
-This functionality sets the ADC gain multiplier.
+This method sets the ADC gain multiplier.
 
 #### enableLED
-This functionality enables the  control of an attached LED on the LDR pin.
+This method enables the  control of an attached LED on the LDR pin.
 
 #### setLED
-This functionality sets the current limit for the LED.
+This method sets the current limit for the LED.
 
 #### readALLChannels
-This functionality takes an array as an argument and fills it with the current measurements for Spectral channels F1-8, Clear and NIR.
+This method takes an array as an argument and fills it with the current measurements for Spectral channels F1-8, Clear and NIR.
 
 ### Code sample to set-up the sensor, turn on the LED at 15/255 strength and begin measurement:
 

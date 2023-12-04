@@ -38,7 +38,7 @@ Datasheet can be found [here](https://ams-osram.com/products/sensors/ambient-lig
 
 The repository contains the following firmware samples: 
 
-[*EKRA2E1_AS7331_SCI_IIC*](firmware_samples\AS7331\EKRA2E1_AS7331_SCI_IIC.zip)
+[*EKRA2E1_AS7331_SCI_IIC*](firmware\AS7331\EKRA2E1_AS7331_SCI_IIC.zip)
 
 This sample was configured for the EK-RA2E1 Evaluation Kit and it reads and outputs data from the AS7331 UV A/B/C light sensor. The following output example shows how the firmware reads the raw UV values collected by the sensor and scales them. Additionally, the firmware reads the temperature values from the on-board temperature sensor and outputs them via SEGGER’s RTT.
 
@@ -46,7 +46,7 @@ This sample was configured for the EK-RA2E1 Evaluation Kit and it reads and outp
 
 Video demo: https://www.youtube.com/watch?v=bvvvC9w7Clc
 
-[*EKRA2E1_AS7343_SCI_IIC*](firmware_samples\AS7343\EKRA2E1_AS7343_SCI_IIC.zip)
+[*EKRA2E1_AS7343_SCI_IIC*](firmware\AS7343\EKRA2E1_AS7343_SCI_IIC.zip)
 
 This sample was configured for the EK-RA2E1 Evaluation Kit. It uses the AS7343 14-channel spectral sensor to measure the intensity of particular wavelengths of light and outputs them via RTT.
 
@@ -54,7 +54,7 @@ This sample was configured for the EK-RA2E1 Evaluation Kit. It uses the AS7343 1
 
 Video Demo: https://www.youtube.com/watch?v=52XaccK38CQ
 
-[*EKRA2E1_TMF8828_SCI_IIC*](firmware_samples/TMF8828/EKRA2E1_TMF8828_SCI_IIC.zip)
+[*EKRA2E1_TMF8828_SCI_IIC*](firmware/TMF8828/EKRA2E1_TMF8828_SCI_IIC.zip)
 
 
 This sample was configured for the EK-RA2E1 Evaluation Kit and it reads and outputs data from the TMF8828 8x8 multi-zone ToF sensor. This firmware measures distances to the subject for each point of the measurement matrix and outputs them via RTT.
@@ -64,7 +64,7 @@ This sample was configured for the EK-RA2E1 Evaluation Kit and it reads and outp
 Video Demo: https://www.youtube.com/watch?v=_Tr8oC4eRQ4 
 
 
-[*EKRA6M4_AS7331_IIC*](firmware_samples\AS7331\EKRA6M4_AS7331_IIC.zip)
+[*EKRA6M4_AS7331_IIC*](firmware\AS7331\EKRA6M4_AS7331_IIC.zip)
 
 This sample was configured for the EK-RA6M4 Evaluation Kit and it reads and outputs data from the AS7331 UV A/B/C light sensor. The following output example shows how the firmware reads the raw UV values collected by the sensor and scales them. Additionally, the firmware reads the temperature values from the on-board temperature sensor and outputs them via SEGGER’s RTT.
 
@@ -72,7 +72,7 @@ This sample was configured for the EK-RA6M4 Evaluation Kit and it reads and outp
 
 Video demo: https://www.youtube.com/watch?v=bvvvC9w7Clc
 
-[*EKRA6M4_AS7343_IIC*](firmware_samples\AS7343\EKRA6M4_AS7343_IIC.zip)
+[*EKRA6M4_AS7343_IIC*](firmware\AS7343\EKRA6M4_AS7343_IIC.zip)
 
 This sample was configured for the EK-RA6M4 Evaluation Kit. It uses the AS7343 14-channel spectral sensor to measure the intensity of particular wavelengths of light and outputs them via RTT.
 
@@ -80,7 +80,7 @@ This sample was configured for the EK-RA6M4 Evaluation Kit. It uses the AS7343 1
 
 Video Demo: https://www.youtube.com/watch?v=52XaccK38CQ
 
-[*EKRA6M4_TMF8828_IIC*](firmware_samples\TMF8828\EKRA6M4_TMF8828_IIC.zip)
+[*EKRA6M4_TMF8828_IIC*](firmware\TMF8828\EKRA6M4_TMF8828_IIC.zip)
 
 This sample was configured for the EK-RA6M4 Evaluation Kit and it reads and outputs data from the TMF8828 8x8 multi-zone ToF sensor. This firmware measures distances to the subject for each point of the measurement matrix and outputs them via RTT.
 

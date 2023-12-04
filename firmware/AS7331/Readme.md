@@ -2,21 +2,21 @@
 
 Datasheet can be found [here](https://ams-osram.com/products/sensors/ambient-light-color-spectral-sensors/ams-as7331-spectral-uv-sensor#Datasheets).
 
-## Functionalities
+## Methods
 
 #### Power Up
-This functionality wakes up the device. 
+This method wakes up the device. 
 
 #### Reset
-This functionality software resets the device.
+This method software resets the device.
 
 #### getChipID
 
-This functionality gets the chipID.
+This method gets the chipID.
 
 #### setConfigurationMode
 
-This functionality puts the sensor in configuration mode.
+This method puts the sensor in configuration mode.
 
 #### init
 
@@ -49,15 +49,15 @@ To replicate the experiment in the video demo, which takes place in an office sp
 
 #### setMeasurementMode
 
-This functionality puts the sensor in measurement mode.
+This method puts the sensor in measurement mode.
 
 #### getStatus
 
-This functionality checks the status of the device and returns it.
+This method checks the status of the device and returns it.
 
 #### readAllData
 
-This functionality takes as argument an array and fills it with the UV-A, UV-b, UV-C, and Temperature values. 
+This method takes as argument an array and fills it with the UV-A, UV-b, UV-C, and Temperature values. 
 
 
 ### Code example to power up, configure, and initialize the device, followed by entering measuring mode and printing the values via RTT. 
