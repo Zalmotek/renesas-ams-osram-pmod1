@@ -121,7 +121,7 @@ One of the samples also needs the r_agt Low-Power Timer stack in order for it to
 
 ![Alt text](resources/ra2e1_stacks_config_2.png)
 
-### EK-RA2E1
+### EK-RA6M4
 
 #### Creating the project
 
