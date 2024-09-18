@@ -1,0 +1,21 @@
+,,,,,,,,
+Item,Reference(s),Value,Manufacturer Name,Footprint,Qty,Link,Pieces Left,Pieces necesarry for 105 (93 already assambled)
+1,A1,AS7343-DLGM,AS7343-DLGM,XDCR_AS7343-DLGM,1,https://ro.mouser.com/ProductDetail/ams-OSRAM/AS7343-DLGM?qs=MyNHzdoqoQIsEDkbthaOhQ%3D%3D,0,12
+2,"C1, C5, C6, C7, C8, C9, C11",1u,04026D105KAT4A,Capacitor_SMD:C_0402_1005Metric,7,https://eu.mouser.com/ProductDetail/KYOCERA-AVX/04026D105KAT4A?qs=sGAEpiMZZMvsSlwiRhF8ql8j10gqqHLVU0vMocREzbU%3D,52,32
+3,C2,4.7u,04026D475MAT2A,Capacitor_SMD:C_0402_1005Metric,1,https://eu.mouser.com/ProductDetail/KYOCERA-AVX/04026D475MAT2A?qs=sGAEpiMZZMvsSlwiRhF8qszWyyQhpShw45u2gei9GD4%3D,92,0
+4,"C3, C4, C10, C_VDD1, C_VDDC1, C_VDDV1",100n,04026D104KAT2A,Capacitor_SMD:C_0402_1005Metric,6,https://eu.mouser.com/ProductDetail/KYOCERA-AVX/04026D104KAT2A?qs=sGAEpiMZZMvsSlwiRhF8qgGS%252BZGwbwJJPlYFxTwghvQ%3D,48,24
+5,"D1, D2, D3, D4",,"PESD3V3X1BL,315",DFN-1006-2,4,https://ro.mouser.com/ProductDetail/Nexperia/PESD3V3X1BL315?qs=pw%2F%252B4fOKvQuT%252BZrTgTrlDQ%3D%3D,6,42
+6,D5,,ASMW-LWG0-NEGBE,LED_SMD:LED_PLCC_2835,1,https://eu.mouser.com/ProductDetail/Broadcom-Avago/ASMW-LWG0-NEGBE?qs=PqoDHHvF6498Wid%252Bgmr8nQ%3D%3D,2,10
+7,IC1,TMF8828,TMF8828,TMF8828,1,https://ro.mouser.com/ProductDetail/ams-OSRAM/TMF8828-1AM?qs=doiCPypUmgFqXuS6KpilVA%3D%3D,0,20
+8,"IC2, IC3","3V3, 1V8",ISL9016IRUNCZ-T,,2,https://eu.mouser.com/ProductDetail/Renesas-Intersil/ISL9016IRUNCZ-T?qs=dAsayXGOMrt9Jg2Nqxt0Ww%3D%3D,6,18
+9,PMOD1,,10129382-912002BLF,PMOD:PMOD_6A_Male,1,https://ro.mouser.com/ProductDetail/Amphenol-FCI/10129382-912002BLF?qs=0lQeLiL1qyYBSLPxRSREvw%3D%3D,0,12
+10,PMOD2,,613012243121,PMOD:PMOD_6A_Female,1,https://ro.mouser.com/ProductDetail/Wurth-Elektronik/613012243121?qs=iLbezkQI%252Bsgb444HYkTruQ%3D%3D,0,12
+11,"Q4, Q5",SSM3K72KCTL3F,"SSM3K72KCT,L3F",SSM3K72KCTL3F,2,https://www.mouser.co.uk/ProductDetail/Toshiba/SSM3K72KCTL3F?qs=PDgMCp4xDJZBSQ%2Fqg29QOw%3D%3D,3,21
+12,"R3, R14",10K,RK73B1ETTPS103J,Resistor_SMD:R_0402_1005Metric,2,https://eu.mouser.com/ProductDetail/KOA-Speer/RK73B1ETTPS103J?qs=7ZBenkSduJSwhA6yuQRvEQ%3D%3D,79,0
+13,"R1, R2, R4, R5",100k,ERJ-2RKF1003X,Resistor_SMD:R_0402_1005Metric,4,https://ro.mouser.com/ProductDetail/Panasonic/ERJ-2RKF1003X?qs=sGAEpiMZZMtlubZbdhIBIHcx2Q2RnT7K1YMPDp9rJM8%3D,7,41
+14,R6,10,CR0402-FX-10R0GLF,Resistor_SMD:R_0402_1005Metric,1,https://ro.mouser.com/ProductDetail/Bourns/CR0402-FX-10R0GLF?qs=sGAEpiMZZMtlubZbdhIBIPJa1ZrpVFACG7RZQ%252Bof250%3D,14,0
+15,R7,22R,RK73H1ETTP22R0F,Resistor_SMD:R_0402_1005Metric,1,https://eu.mouser.com/ProductDetail/KOA-Speer/RK73H1ETTP22R0F?qs=RHoMK1iCi08XkH6h6%252Ba8TQ%3D%3D,8,4
+16,"R8, R9",820,RK73H1ETTP8200F,Resistor_SMD:R_0402_1005Metric,2,https://eu.mouser.com/ProductDetail/KOA-Speer/RK73H1ETTP8200F?qs=uCLiTq2i4P7Tk0G42uIkuA%3D%3D,86,0
+17,R13,0,CRCW04020000Z0EDC,Resistor_SMD:R_0402_1005Metric,1,https://ro.mouser.com/ProductDetail/Vishay-Dale/CRCW04020000Z0EDC?qs=sGAEpiMZZMtlubZbdhIBIIZe04wfiaJW9KIkhfRMZVI%3D,94,0
+18,Rext1,3.3M,RK73H1ETTP3304F,Resistor_SMD:R_0402_1005Metric,1,https://eu.mouser.com/ProductDetail/KOA-Speer/RK73H1ETTP3304F?qs=d1XXISBsMXByljM5adPBcg%3D%3D,91,0
+19,U1,AS7331,AS7331-AQFM,AS7331:AS7331,1,https://ro.mouser.com/ProductDetail/ams-OSRAM/AS7331-AQFM?qs=rQFj71Wb1eVszXG11xUjQw%3D%3D,2,10
